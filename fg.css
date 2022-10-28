@@ -1,0 +1,128 @@
+.container{
+    display: flex;
+    justify-content: center;
+  
+    
+}
+
+.flexbox-container{
+    display: flex;
+    grid-gap: 20px;
+    flex-flow: column wrap;
+   
+   
+}
+
+.flex-item-1{
+    
+    background-color: aqua;
+    border: 1px solid #333;
+    height: 100px;
+    width: 500px;
+}
+.flex-item-2{
+    
+    background-color:blueviolet;
+    border: 1px solid #333;
+    flex-direction: row;
+    width: 250px;
+    height: 300px;
+    
+}
+.flex-item-3{
+    height: 143px;
+    width: 239px;
+    margin-bottom: 10px;
+    background-color:chartreuse;
+    border: 1px solid #333;
+    
+}
+.row{
+    display: flex;
+    
+}
+.flex-item-4{
+    width: 239px;
+    height: 144px;
+   
+    background-color:chocolate;
+    border: 1px solid #333;
+    
+}
+.col{
+    width: 250px;
+    height: 300px;
+    margin-left: 10px;
+    flex-direction: column;
+    
+}
+.flex-item-5{
+     height: 300px;
+     width: 500px;
+    background-color:cornflowerblue;
+    border: 1px solid #333;
+    
+}
+.flex-item-6{
+     height: 50px;
+     width: 500px;
+    background-color:crimson;
+    border: 1px solid #333;
+    
+}
+/*---------------------------------------------GRID-------------------------------------------------------------*/
+.grid-container{
+    display: grid;
+    
+    grid-gap: 20px;
+    grid-template-columns: minmax(250px, auto);
+    grid-template-rows: 100px 135px 150px 230px 50px ;
+    
+    grid-template-areas:
+    "header header"
+     "articule text1"
+     "articule text2"
+     "main main"
+     "main main"
+     "footer footer";
+}
+.grid-item-1{
+    background-color:aqua;
+    
+    border: 1px solid #333;
+    grid-area: header;
+}
+.grid-item-2{
+    background-color: blueviolet;
+    
+    border: 1px solid #333;
+    grid-area: articule;
+}
+.grid-item-3{
+    background-color:chartreuse;
+    width: 250px;
+    border: 1px solid #333;
+    grid-area: text1;
+    
+}
+.grid-item-4{
+    background-color:chocolate;
+    
+    border: 1px solid #333;
+    grid-area: text2;
+    
+}
+.grid-item-5{
+    background-color:cornflowerblue;
+    
+    border: 1px solid #333;
+    grid-area: main;
+    
+}
+.grid-item-6{
+    background-color:crimson;
+   
+    border: 1px solid #333;
+    grid-area: footer;
+    
+}
